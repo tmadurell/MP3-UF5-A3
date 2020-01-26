@@ -147,8 +147,8 @@ public class Menu {
 
                             System.out.println("\nEscull una opció que vulguis cercar com: ");
                             System.out.println("1. Cerca per un idioma concret.");
-                            System.out.println("2. Cerca pel·lícules que tinguin 2 idiomes solament.");
-                            System.out.println("3. Cerca pel·lícules de 3 a més idiomes.");
+                            System.out.println("2. Cerca pel·lícules que tinguin 2 idiomes a més.");
+                            System.out.println("3. Cerca pel·lícules que tinguin 3 idiomes a més.");
                             System.out.print("Escriu aquí: ");
                             int idioma = opcions.nextInt();
                             opcions.nextLine();
