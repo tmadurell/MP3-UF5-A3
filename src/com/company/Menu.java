@@ -229,18 +229,18 @@ public class Menu {
         }
     }
 
-    public static int cercaI(String parrafo){
+    public static int cercaI(String idioma){
         int count = 0;
-        for(char c : parrafo.toCharArray()){
+        for(char c : idioma.toCharArray()){
             if (c == 'i') count++;
         }
         return count;
     }
 
 
-    public static int cercaComas(String parrafo){
+    public static int cercaComas(String idioma){
         int count = 0;
-        for(char c : parrafo.toCharArray()){
+        for(char c : idioma.toCharArray()){
             if (c == ',') count++;
         }
         return count;

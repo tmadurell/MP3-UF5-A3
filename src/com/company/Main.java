@@ -10,6 +10,7 @@ public class Main {
     public static void main(String[] args) throws IOException, InterruptedException, ParserConfigurationException, SAXException {
         Scanner scanner = new Scanner(System.in);
         int opcio;
+        boolean res = true;
 
         do{
 
@@ -32,7 +33,6 @@ public class Main {
                     List<Films> films = stream.read();
                     Menu menu = new Menu();
                     menu.show(films);
-                    boolean res = true;
                     while (res){
                         menu.show(films);
                     }
@@ -56,6 +56,7 @@ public class Main {
     public void menu() throws InterruptedException, ParserConfigurationException, SAXException, IOException {
         Scanner scanner = new Scanner(System.in);
         int opcio;
+        boolean res = true;
         do{
 
             System.out.println("");
@@ -77,7 +78,9 @@ public class Main {
                     List<Films> films = stream.read();
                     Menu menu = new Menu();
                     menu.show(films);
-
+                    while (res){
+                    menu.show(films);
+                    }
                     break;
                 case 2:
                     System.out.println("Proximanent, tingueu paciencia <3");
