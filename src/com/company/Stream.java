@@ -68,8 +68,9 @@ public class Stream {
                         Films film = new Films(idfilm, prioritat, titol, situacio, any, cartell, original, direccio, interprets, sinopsi, versio, idioma, qualificacio, trailer, web, estrena);
 
                         list.add(film);
+
                     } catch (Exception e) {
-                        System.out.println(e);
+
                     }
                 }
             }
