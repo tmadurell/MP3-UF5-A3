@@ -231,8 +231,8 @@ public class Menu {
 
     public static int cercaI(String idioma){
         int count = 0;
-        for(char c : idioma.toCharArray()){
-            if (c == 'i') count++;
+        for(char i : idioma.toCharArray()){
+            if (i == 'i') count++;
         }
         return count;
     }
